@@ -1,6 +1,6 @@
 # pelican-bootstrap3
 
-This is a Bootstrap 3 theme for Pelican. It's fully responsive. Pelican-bootstrap3 is compatible with Pelican 3.3.0 and 
+This is a Bootstrap 3 theme for Pelican. It's fully responsive. Pelican-bootstrap3 is compatible with Pelican 3.3.0 and
 higher. I will try to regularly update this theme with new features and newer versions of Bootstrap & Bootswatch.
 
 ## CONTRIBUTING
@@ -30,8 +30,8 @@ This theme honors the following standard Pelican settings:
 	* `DISPLAY_PAGES_ON_MENU`
 	* `DISPLAY_CATEGORIES_ON_MENU`
 	* `MENUITEMS`
-  * `DROPDOWNITEMS` 
-    - You may customize the header of this dropdown items, by setting the 
+  * `DROPDOWNITEMS`
+    - You may customize the header of this dropdown items, by setting the
     `DROPDOWN_TEXT` variable
   * `LINKS` (Blogroll will be put in the sidebar instead of the head)
 * Analytics & Comments
@@ -255,7 +255,7 @@ To get a `TWITTER_WIDGET_ID`, go to: https://twitter.com/settings/widgets and se
 
 `https://twitter.com/settings/widgets/TWITTER_WIDGET_ID/edit`
 
-To limit tweets count in the timeline, set `TWEET_LIMIT` to the count(integer).
+To limit tweets count in the timeline, set `TWITTER_TWEET_LIMIT` to the count(integer) you want.
 
 ### AddThis
 
@@ -288,7 +288,7 @@ All you have to do, is:
 - enable the plugin, and the theme will add a search box on the right
   side of the menu
 - Add `'search'` to the `DIRECT_TEMPLATES` in your `pelicanconf.py`. E.g. `DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search').
-By default, the Tipue search page is configured at "/search.html", but you can override that with the `SEARCH_URL` 
+By default, the Tipue search page is configured at "/search.html", but you can override that with the `SEARCH_URL`
 setting, which comes in handy if you have fancy rewrite rules in your Apache or Nginx configuration.
 
 ### Footer
@@ -312,5 +312,3 @@ If you want more examples of what you could do with this theme, have a [look her
 ![](screenshot.png)
 
 ![](screenshot-article.png)
-
-
